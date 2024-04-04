@@ -40,5 +40,5 @@ cat <<EOF >/etc/ipsec.d/aws.secrets
 $cgwip $tunnel1: PSK "password"
 EOF
 
-systemctl start ipswc.service
+systemctl start ipsec.service
 systemctl enable ipsec.service
